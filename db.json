@@ -1,9 +1,89 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "products": [
+    {
+      "id": "1",
+      "name": "Half sleeve T-shirt",
+      "price": 46100,
+      "rating": 3,
+      "recommended": true,
+      "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_15_360x.png?v=1733810922",
+      "hoverImage": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_03_720x.png?v=1733810921"
+    },
+    {
+      "id": "2",
+      "name": "Brown hat craft",
+      "price": 39200,
+      "rating": 4,
+      "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_05_720x.png?v=1733818297",
+      "arrival": "new"
+    },
+    {
+      "id": "3",
+      "name": "Slim-Fit Formal Suit Blazer",
+      "price": 38300,
+      "rating": 5,
+      "recommended": true,
+      "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_06_360x.png?v=1733810922",
+      "hoverImage": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_11_720x.png?v=1733810921"
+    },
+    {
+      "id": "4",
+      "name": "Retro Tie-Dye Color Splash T-Shirt",
+      "price": 38900,
+      "rating": 3,
+      "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_12_360x.png?v=1733810921",
+      "hoverImage": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_02_720x.png?v=1733810921",
+      "recently": true
+    },
+    {
+      "id": "5",
+      "name": "Geometric Print Relaxed Fit Tee",
+      "rating": 3,
+      "recommended": true,
+      "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_14_720x.png?v=1733810921"
+    },
+    {
+      "id": "6",
+      "name": "Floral Pattern Colorful Summer Tee",
+      "price": 54800,
+      "rating": 5,
+      "oldPrice": 62800,
+      "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_10_720x.png?v=1733810921",
+      "sale": true,
+      "recently": true
+    },
+    {
+      "id": "7",
+      "name": "Black hat craft",
+      "price": 31200,
+      "rating": 4,
+      "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_04_720x.png?v=1733818314",
+      "arrival": "new",
+      "recently": true
+    },
+    {
+      "id": "8",
+      "name": "Warm Fit-and-Flare Winter Dress with Fleece Lining",
+      "price": 46900,
+      "rating": 5,
+      "oldPrice": 54800,
+      "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_16_720x.png?v=1733810921",
+      "hoverImage": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_14_720x.png?v=1733810921",
+      "sale": true,
+      "arrival": "new",
+      "recently": true
+    },
+    {
+      "id": "9",
+      "name": "Smooth Shine Bald Head Moisturizer",
+      "price": 48895,
+      "rating": 1,
+      "oldPrice": 24800,
+      "recommended": true,
+      "image": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_13_720x.png?v=1733810921",
+      "hoverImage": "https://rivon-demo.myshopify.com/cdn/shop/files/Fashion_14_720x.png?v=1733810921",
+      "sale": true,
+      "arrival": "new"
+    }
+  ]
 }
